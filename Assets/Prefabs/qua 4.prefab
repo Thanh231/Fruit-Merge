@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7261734695837337475}
   - component: {fileID: 8946746627505662713}
   - component: {fileID: 6199307764790181716}
-  - component: {fileID: 1752519791760077562}
+  - component: {fileID: 1788123117053371445}
   m_Layer: 0
   m_Name: qua 4
   m_TagString: Fruit
@@ -173,7 +173,7 @@ MonoBehaviour:
   fruitLevel: 4
   nextFruitPrefab: {fileID: 3570007088525623258, guid: 7d4943a61766f444ab32869f3f707a04, type: 3}
   scoreValue: 10
---- !u!114 &1752519791760077562
+--- !u!114 &1788123117053371445
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -182,12 +182,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 997308498483453572}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Script: {fileID: 11500000, guid: 4218d78ef2d54d0898b7514e121a781f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Outline
-  outlineMode: 0
-  outlineColor: {r: 1, g: 0, b: 0, a: 1}
-  outlineWidth: 3
-  precomputeOutline: 1
-  bakeKeys: []
-  bakeValues: []
+  m_EditorClassIdentifier: OutlineFx::OutlineFx.OutlineFx
+  _color: {r: 1, g: 0, b: 0, a: 1}
