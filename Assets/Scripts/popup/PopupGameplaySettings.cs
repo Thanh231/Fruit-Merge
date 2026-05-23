@@ -33,7 +33,7 @@ public class PopupGameplaySettings : BasePopup
         //     HandlePigBehavior.instance.PausePigsOnConveyor();
         // }
 
-        if (LevelController.GetMaxLevelUnlock() == 1)
+        if (LevelController.GetCurrentLevel() == 1)
         {
             btnRestartLevel.gameObject.SetActive(false);
             btnHome.gameObject.SetActive(false);

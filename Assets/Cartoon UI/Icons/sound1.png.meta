@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 32019b565be2cf9469ba4bbec5fdafc0
+guid: d2bce5a916e7e6b4caf69f89a8d661c4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5860346519790401921
-    second: Gemini_Generated_Image_pncj7ypncj7ypncj (1)_0
+      213: -4312618989417070840
+    second: sound1_0
+  - first:
+      213: 4134620689069170232
+    second: sound1_1
+  - first:
+      213: 7225720376584448048
+    second: sound1_2
+  - first:
+      213: -831654126576896106
+    second: sound1_3
+  - first:
+      213: 1117382822001426843
+    second: sound1_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1400
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -87,12 +99,12 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 10
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 1
+    overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -100,12 +112,12 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 45
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 1
+    overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -113,12 +125,12 @@ TextureImporter:
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 10
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 1
+    overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -126,12 +138,12 @@ TextureImporter:
     buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 50
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 1
+    overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -139,13 +151,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gemini_Generated_Image_pncj7ypncj7ypncj (1)_0
+      name: sound1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1408
-        height: 1186
+        x: 14
+        y: 149
+        width: 82
+        height: 279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +166,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f764233c3eddbaea0800000000000000
-      internalID: -5860346519790401921
+      spriteID: 80ff03cd0ef7624c0800000000000000
+      internalID: -4312618989417070840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sound1_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 31
+        width: 323
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ed2fc4c9f116930800000000000000
+      internalID: 4134620689069170232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sound1_2
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 179
+        width: 72
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0382e94266ae64460800000000000000
+      internalID: 7225720376584448048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sound1_3
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 125
+        width: 93
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69775696afe5574f0800000000000000
+      internalID: -831654126576896106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sound1_4
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 72
+        width: 112
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91c487a1cdb18f00800000000000000
+      internalID: 1117382822001426843
       vertices: []
       indices: 
       edges: []
@@ -174,7 +274,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Gemini_Generated_Image_pncj7ypncj7ypncj (1)_0: -5860346519790401921
+      sound1_0: -4312618989417070840
+      sound1_1: 4134620689069170232
+      sound1_2: 7225720376584448048
+      sound1_3: -831654126576896106
+      sound1_4: 1117382822001426843
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

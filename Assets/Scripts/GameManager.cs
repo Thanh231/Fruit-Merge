@@ -3,6 +3,8 @@ using UnityEngine;
 public class GameManager : Singleton<GameManager>
 {
     public GameState currentState;
+
+    public bool isAdventureMode = true; // Giả sử có chế độ Adventure Mode
     void Start()
     {
         StartGame();
@@ -13,6 +15,8 @@ public class GameManager : Singleton<GameManager>
         Debug.Log("Start Game");
         currentState = GameState.StartGame;
         LoaderOverlayManager.instance.EndOverlay();
+
+        EventManager.OnGameStart?.Invoke();
     }
 
     private void PauseGame()

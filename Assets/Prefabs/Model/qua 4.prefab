@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 7261734695837337475}
   - component: {fileID: 8946746627505662713}
   - component: {fileID: 6199307764790181716}
-  - component: {fileID: 1788123117053371445}
   m_Layer: 0
   m_Name: qua 4
   m_TagString: Fruit
@@ -62,7 +61,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 838b43217d67b9e4f90c7aca38e9e769, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,7 +82,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 9da41f6591fea454a9e49aa1d50184c2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -173,16 +172,3 @@ MonoBehaviour:
   fruitLevel: 4
   nextFruitPrefab: {fileID: 3570007088525623258, guid: 7d4943a61766f444ab32869f3f707a04, type: 3}
   scoreValue: 10
---- !u!114 &1788123117053371445
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 997308498483453572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4218d78ef2d54d0898b7514e121a781f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: OutlineFx::OutlineFx.OutlineFx
-  _color: {r: 1, g: 0, b: 0, a: 1}

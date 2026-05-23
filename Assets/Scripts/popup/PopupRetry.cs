@@ -22,7 +22,7 @@ public class PopupRetry : BasePopup
                 SceneManager.LoadScene("3.menu");
             }).AddTo(this);
 
-        txtLevel.text = $"Level {LevelController.GetMaxLevelUnlock()}";
+        txtLevel.text = $"Level {LevelController.GetCurrentLevel()}";
 
         btnRetry.OnClickAsObservable()
             .Subscribe(_ =>

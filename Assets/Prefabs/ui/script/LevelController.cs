@@ -14,7 +14,7 @@ public static class LevelController
     }
 
     // Lấy level cao nhất đang được mở khóa
-    public static int GetMaxLevelUnlock()
+    public static int GetCurrentLevel()
     {
         return levelModel.lLevel.Value;
     }

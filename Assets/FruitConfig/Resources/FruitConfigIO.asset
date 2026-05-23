@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 421f3131150702d468d4211c40fce697, type: 3}
+  m_Name: FruitConfigIO
+  m_EditorClassIdentifier: Assembly-CSharp::FruitConfigIO
+  fruitConfigs:
+  - type: 0
+    prefab: {fileID: 3027108371896226656, guid: 45ecda4fbdd1cf84e81a77e3808995fe, type: 3}
+  - type: 1
+    prefab: {fileID: 386880088538287381, guid: 3a09119788fe41847a7b5ce0637002bf, type: 3}
+  - type: 2
+    prefab: {fileID: 3753627319130958824, guid: 4f3b0d513257e3b4d9ce6777cd773b98, type: 3}
+  - type: 3
+    prefab: {fileID: 997308498483453572, guid: 500d93a62aba145409349f5f34b60f51, type: 3}
+  - type: 4
+    prefab: {fileID: 3570007088525623258, guid: 7d4943a61766f444ab32869f3f707a04, type: 3}
+  - type: 5
+    prefab: {fileID: 6789116371202773379, guid: eb126b72dbc989c469627899fa469fa9, type: 3}
+  - type: 6
+    prefab: {fileID: 6370275086233968068, guid: cfa4670d9a2ecf8488f753c5ac0c677b, type: 3}
+  - type: 7
+    prefab: {fileID: 5522381178405979032, guid: 9b36c6197fb070842a86755fbf40b4b4, type: 3}
+  - type: 9
+    prefab: {fileID: 5963483603634286177, guid: 9b79aa3a15d2e504fbc1bb2a2b2d8aa9, type: 3}
+  - type: 10
+    prefab: {fileID: 5963483603634286177, guid: 7208b9b437c150d4bb1d20129c844444, type: 3}
+  - type: 11
+    prefab: {fileID: 5963483603634286177, guid: ff39d511d0094bd45ac84e21f8233b20, type: 3}
